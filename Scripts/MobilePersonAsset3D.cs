@@ -40,7 +40,7 @@ namespace Mod3D
         private string assetName;
         public string AssetName { get => assetName; set { assetName = value; } }
 
-        public override void SetPerson(Races race, Genders gender, int personVariant, bool isGuard)
+        public override void SetPerson(Races race, Genders gender, int personVariant, bool isGuard, int personFaceVariant, int personFaceRecordId)
         {
             Race = race;
             Gender = gender;
