@@ -58,8 +58,8 @@ namespace Mod3D
                 Destroy(go);
                 go = null;
             }
-
-            go = ModLoader.GetAsset<GameObject>(AssetName) ?? ModLoader.GetAsset<GameObject>("DefaultMale.prefab");
+            // ModLoader.GetAsset<GameObject>(AssetName) ??
+            go = ModLoader.GetAsset<GameObject>(ExpectedAssetName) ?? (gender == Genders.Male ? ModLoader.GetAsset<GameObject>("DefaultMale.prefab") : ModLoader.GetAsset<GameObject>("DefaultFemale.prefab"));
             AssetName = go.name;
 
             // for some reason the MobilePersonMotor is in position 0,0,0 while the floor is 0,-1,0
