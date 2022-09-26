@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3b38bffd2b8f100d787ab63b749681cb
+guid: 2b03cbd6648d42d45a6ef3265e2ca699
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
@@ -9,62 +9,10 @@ ModelImporter:
   - first:
       74: -5303623271864140528
     second: Armature|M_Walk
-  externalObjects:
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: DF_Amulet
-    second: {fileID: 2100000, guid: bff83e8f859b822e1855727631958388, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: DF_Boots-1
-    second: {fileID: 2100000, guid: bff83e8f859b822e1855727631958388, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: DF_Hood-1-1
-    second: {fileID: 2100000, guid: bff83e8f859b822e1855727631958388, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: DF_Pants
-    second: {fileID: 2100000, guid: bff83e8f859b822e1855727631958388, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: DF_Tunic-1
-    second: {fileID: 2100000, guid: bff83e8f859b822e1855727631958388, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Eye
-    second: {fileID: 2100000, guid: bff83e8f859b822e1855727631958388, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Eyebrows
-    second: {fileID: 2100000, guid: bff83e8f859b822e1855727631958388, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Eyelash
-    second: {fileID: 2100000, guid: bff83e8f859b822e1855727631958388, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: bff83e8f859b822e1855727631958388, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: bff83e8f859b822e1855727631958388, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Purse
-    second: {fileID: 2100000, guid: bff83e8f859b822e1855727631958388, type: 2}
+      74: 4492474190430105651
+    second: B_Body_V4|391_Idle
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
