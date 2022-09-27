@@ -1,5 +1,5 @@
 ## ABOUT DF3D ##
-DF3D is a mod that replaces town NPCs’ billboards with full 3d animated models.
+DF3D is a mod for [Daggerfall Unity](https://github.com/Interkarma/daggerfall-unity) that replaces town NPCs’ billboards with full 3d animated models. As for now, the mod is in alpha stage. It isn't compiled as for now. You may test it via Unity Editor or compile it and test in Daggerfall Unity game.
 
 ## ROADMAP ##
 
@@ -45,23 +45,24 @@ DF3D is a mod that replaces town NPCs’ billboards with full 3d animated models
     - [ ] TEXTURE.455 (female breton)
     - [ ] TEXTURE.456 (female breton) WIP
 
-- [ ] TEXTURE.399 (Guard) – low priority; separate mod for enemy NPCs is needed
+- [ ] TEXTURE.399 (Guard)
 
 #### FEATURES: ####
 - [x] Animator controller with a script controlling animations
-- [ ] Move NPCs in more than 4 directions
-- [ ] Rotate prefab with given velocity when changing direction + turn animation (>45 degrees)
-- [ ] Turn head animation when close to the player (<45 degrees)
+- [ ] Rotate NPC model with given velocity when changing walk direction
+- [ ] On approach to NPC turn head animation in PC direction (<60 degrees)
+- [ ] On approach to NPC turn body animation in PC direction (>60 degrees)
 - [ ] Death animation and corpse model (possibly lootable)
-- [ ] Run away behaviour afer player kills non aggressive NPC
 - [ ] Separate heads corresponding to NPC portraits
+- [ ] Run away behaviour afer PC kills non aggressive NPC
+- [ ] NPCs walk in more than 4 directions
+- [ ] Walk patterns in towns
 
 #### LONGTERM PLANS: ####
 - [ ] New shaders and illumination settings for better rendering
-- [ ] More texture variants for clothing
-- [ ] Female variant for guards.
+- [ ] Texture variants for clothing
 - [ ] Race and gender guard variants for different regions.
 - [ ] Separate mod for enemy NPCs
 - [ ] Separate mod for first person hands and weapons
-- [ ] Add high elves, wood elves, dark elves, khajiits and argonians
 - [ ] Separate mod for static NPC models
+- [ ] Add high elves, wood elves, dark elves, argonians and khajiiti (ohmes-raht)
