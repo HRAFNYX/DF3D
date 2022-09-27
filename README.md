@@ -4,49 +4,64 @@ DF3D is a mod that replaces town NPCs’ billboards with full 3d animated models
 
 ROADMAP
 
-Models (as written in game files):
-1. Default male – done 
-2. Default female – high priority; in progress
-3. TEXTURE.381 (male redguard)
-4. TEXTURE.382 (male redguard)
-15. TEXTURE.383 (male redguard)
-6. TEXTURE.384 (male redguard)
-7. TEXTURE.385 (male breton) – high priority; in progress
-8. TEXTURE.386 (MALE NORD) – high priority; in progress
-9. TEXTURE.387 (MALE NORD)
-10. TEXTURE.388 (MALE NORD)
-11. TEXTURE.389 (MALE NORD)
-12. TEXTURE.390 (MALE NORD)
-13. TEXTURE.391 (monc) – done 
-14. TEXTURE.392 (female nord)
-15. TEXTURE.393 (female nord)
-16. TEXTURE.394 (sailor) – high priority; in progress
-17. TEXTURE.395 (redguard female)
-18. TEXTURE.396 (redguard female)
-19. TEXTURE.397 (REDGUARD WOMAN)
-20. TEXTURE.398 (REDGUARD WOMAN)
-21. TEXTURE.399 (Guard) – low priority; demands separate mod for enemy NPCs
-22. TEXTURE.451 (female nord)
-23. TEXTURE.452 (female nord)
-24. TEXTURE.453 (female breton) – high priority
-25. TEXTURE.454 (female breton) – high priority
-26. TEXTURE.455 (female breton) – high priority
-27. TEXTURE.456 (female breton) – high priority
+MODELS (named as in game files):
+1 BASICS
+1.1 Default male – done 
+1.2 Default female – done
 
-Features:
-1. Animator controller with a script controlling animations – done
-2. Move NPCs in more than 4 directions
-3. Rotate prefab with given velocity when changing direction + turn animation (>45 degrees)
-4. Turn head animation when close to the player (<45 degrees)
-5. Death animation and corpse model (possibly lootable)
-6. Run away behaviour afer player kills non aggressive NPC
-7. Unity blend shapes for face proportions and hair sets corresponding to NPC portraits
+2.1 REDGUARD MALE
+2.1.1 TEXTURE.381 (male redguard)
+2.1.2 TEXTURE.382 (male redguard)
+2.1.3 TEXTURE.383 (male redguard)
+2.1.4 TEXTURE.384 (male redguard)
 
-Longterm plans (in priority order):
-1. New shaders and illumination settings for better rendering
-2. More texture variants for clothing
-3. Add female variant for city watch. Also add redguard male and female variants for Hammerfell region.
-4. Separate mod for enemy NPCs
-5. Separate mod for first person hands and weapons
-6. Add high elves, wood elves, dark elves, khajiits and argonians
-7. Separate mod for static NPC models (this is too much, but maybe one day)
+2.2 REDGUARD FEMALE
+2.2.1 TEXTURE.395 (redguard female)
+2.2.2 TEXTURE.396 (redguard female)
+2.2.3 TEXTURE.397 (REDGUARD WOMAN)
+2.2.4 TEXTURE.398 (REDGUARD WOMAN)
+
+3.1 NORD MALE
+3.1.1 TEXTURE.387 (MALE NORD)
+3.1.2 TEXTURE.388 (MALE NORD)
+3.1.3 TEXTURE.389 (MALE NORD)
+3.1.4 TEXTURE.390 (MALE NORD)
+
+3.2 NORD FEMALE
+3.2.1 TEXTURE.392 (female nord)
+3.2.2 TEXTURE.393 (female nord)
+3.2.3 TEXTURE.451 (female nord)
+3.2.4 TEXTURE.452 (female nord)
+
+4.1 BRETON MALE
+4.1.1 TEXTURE.385 (male breton) – high priority; WIP
+4.1.2 TEXTURE.386 (MALE NORD) – high priority; WIP
+4.1.3 TEXTURE.391 (monc) – done 
+4.1.4 TEXTURE.394 (sailor) – high priority; WIP
+
+4.2 BRETON FEMALE
+4.2.1 TEXTURE.453 (female breton) – high priority
+4.2.2 TEXTURE.454 (female breton) – high priority
+4.2.3 TEXTURE.455 (female breton) – high priority
+4.2.4 TEXTURE.456 (female breton) – high priority; WIP
+
+5 TEXTURE.399 (Guard) – low priority; separate mod for enemy NPCs is needed
+
+FEATURES:
+- Animator controller with a script controlling animations – done
+- Move NPCs in more than 4 directions
+- Rotate prefab with given velocity when changing direction + turn animation (>45 degrees)
+- Turn head animation when close to the player (<45 degrees)
+- Death animation and corpse model (possibly lootable)
+- Run away behaviour afer player kills non aggressive NPC
+- Separate heads corresponding to NPC portraits
+
+LONGTERM PLANS:
+- New shaders and illumination settings for better rendering
+- More texture variants for clothing
+- Female variant for guards.
+- Race and gender guard variants for different regions.
+- Separate mod for enemy NPCs
+- Separate mod for first person hands and weapons
+- Add high elves, wood elves, dark elves, khajiits and argonians
+- Separate mod for static NPC models
