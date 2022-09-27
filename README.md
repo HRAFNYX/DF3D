@@ -1,9 +1,9 @@
-#ABOUT DF3D#
+# ABOUT DF3D #
 DF3D is a mod that replaces town NPCs’ billboards with full 3d animated models.
 
-#ROADMAP#
+# ROADMAP #
 
-##MODELS (named as in game files):##
+## MODELS (named as in game files): ##
 
 - [x] BASICS
     - [x] Default male
@@ -47,7 +47,7 @@ DF3D is a mod that replaces town NPCs’ billboards with full 3d animated models
 
 - [ ] TEXTURE.399 (Guard) – low priority; separate mod for enemy NPCs is needed
 
-##FEATURES:##
+## FEATURES: ##
 - [x] Animator controller with a script controlling animations
 - [ ] Move NPCs in more than 4 directions
 - [ ] Rotate prefab with given velocity when changing direction + turn animation (>45 degrees)
@@ -56,7 +56,7 @@ DF3D is a mod that replaces town NPCs’ billboards with full 3d animated models
 - [ ] Run away behaviour afer player kills non aggressive NPC
 - [ ] Separate heads corresponding to NPC portraits
 
-##LONGTERM PLANS:##
+## LONGTERM PLANS: ##
 - [ ] New shaders and illumination settings for better rendering
 - [ ] More texture variants for clothing
 - [ ] Female variant for guards.
